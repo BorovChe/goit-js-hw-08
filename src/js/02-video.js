@@ -18,4 +18,6 @@ const backTime = JSON.parse(
   localStorage.getItem('videoplayer-current-time', onTimeVideo)
 );
 
+
+
 player.setCurrentTime(backTime);
